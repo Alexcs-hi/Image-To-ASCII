@@ -1,14 +1,20 @@
-# Image to ASCII Converter (CLI)
+# 🖼️ Image to ASCII Converter (CLI) 🎨
+
+Turn any image into ASCII art with this simple command-line tool! 🖥️✨
+
+---
 
 ## 🎨 About
-**Image to ASCII Converter (CLI)** is a Python-based tool that converts images into ASCII art. It allows users to adjust brightness and contrast, as well as optionally invert the colors. The output is displayed directly in the terminal.
+**Image to ASCII Converter (CLI)** is a Python-based tool that converts images into ASCII art.
+---
 
-## 🚀 Features
-- Converts images into ASCII art using customizable character sets
-- Adjustable **brightness** and **contrast**
-- Option to **invert** image colors
-- Supports **PNG and JPG** formats
-- Simple and interactive **CLI-based** user interface
+## 🚀 Features 
+✔ Adjustable brightness & contrast 🎚️  
+✔ Invert the image 🔄  
+✔ Works with different character sets or any sizes 🔠  (there are two sets in the script , you can also add your own)
+✔ Simple & easy to use! 🏆  
+
+---
 
 ## 🛠 Requirements
 Make sure you have **Python 3.6+** installed.
@@ -18,12 +24,16 @@ Install the required dependencies using:
 pip install pillow
 ```
 
+---
+
 ## 📥 Installation
 Clone the repository using:
 ```bash
 git clone https://github.com/Alexcs-hi/Image-To-ASCII.git
 cd Image-To-ASCII
 ```
+
+---
 
 ## 📌 Usage
 Run the script by executing:
@@ -36,21 +46,25 @@ Then follow the on-screen instructions:
 3. **Select an image** (a file dialog will open).
 4. **View the ASCII output in the terminal**!
 
-## 🎮 Example
-```
-Welcome To Image To ASCII Converter !
-Enter a Brightness Value (0.0 - 5.0) or Enter to continue: 1.2
-Enter a Contrast Value (0.0 - 5.0) or Enter to continue: 1.5
-Do you want the image to be inverted? (Press 'y' for YES or any other button to continue): y
-```
-After selecting an image, the ASCII output appears directly in the terminal.
+---
 
-## 📜 License
-This project is licensed under the **MIT License**. Feel free to use, modify, and distribute!
+## 🌟 Example
+### 🔹 **Before → After** 🔹
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to open an issue or a pull request if you have improvements or bug fixes.
+| Original Image | ASCII Art Output |
+|---------------|----------------|
+| ![Original](images/before.jpg) | ![ASCII](images/after.png) |
+
+---
+
+## 📜 License (**MIT License**)
+Feel free to use, modify, and distribute!
+
+---
 
 ## 📧 Contact
 For questions or suggestions, reach out at **alexcs.hello@gmail.com** or via Discord: **@Alexcs-hi**.
+
+---
+## 👋 Cya ! 
 
