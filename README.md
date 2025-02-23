@@ -31,23 +31,17 @@ python ascii_generator.py
 ## 🌟 Example
 ### 🔹 **Before → After** 🔹
 
-| Original Image | ASCII Art Output 
-                 (Brigthness 100% , Contrast 100% inverted) |
+| Original Image | ASCII Art Output (Brightness 100%, Contrast 100% Inverted) |
 |---------------|----------------|
-| ![Original](images/pika_before.jpg) | ![ASCII](images/pika_after.png) |
+| <img src="images/pika_before.jpg" width="200"> | <img src="images/pika_after.png" width="200"> |
 
-
-| Original Image | ASCII Art Output 
-                 (Brigthness 100% , Contrast **200%** inverted) |
+| Original Image | ASCII Art Output (Brightness 100%, Contrast **200%** Inverted) |
 |---------------|----------------|
-| ![Original](images/pika_before.jpg) | ![ASCII](images/pika_after_contrast2.png) |
+| <img src="images/pika_before.jpg" width="200"> | <img src="images/pika_after_contrast2.png" width="200"> |
 
-
-
-| Original Image | ASCII Art Output 
-                 (Brigthness 100% , Contrast 100% inverted) |
+| Original Image | ASCII Art Output (Brightness 100%, Contrast 100% Inverted) |
 |---------------|----------------|
-| ![Original](images/coffee_before.jpg) | ![ASCII](images/coffee_after.png) |
+| <img src="images/coffee_before.jpg" width="200"> | <img src="images/coffee_after.png" width="200"> |
 
 The coffee one is a bit distorted , but you can change the resizing of the image 
 insisde the script get_image() function
