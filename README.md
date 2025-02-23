@@ -1,69 +1,66 @@
-# 🖼️ Image to ASCII Converter (CLI) 🎨
 
-Turn any image into ASCII art with this simple command-line tool! 🖥️✨
+# 🖼️ Image to ASCII Converter (CLI) 
 
----
+## 🚀 Features
+- Converts images into ASCII art using customizable character sets of any size
+- Adjustable **brightness** and **contrast**
+- Option to **invert** image colors
+- Written in **python**
 
-## 🎨 About
-**Image to ASCII Converter (CLI)** is a Python-based tool that converts images into ASCII art.
----
-
-## 🚀 Features 
-✔ Adjustable brightness & contrast 🎚️  
-✔ Invert the image 🔄  
-✔ Works with different character sets or any sizes 🔠  (there are two sets in the script , you can also add your own)
-✔ Simple & easy to use! 🏆  
-
----
-
-## 🛠 Requirements
+## 🛠 How To Use 
 Make sure you have **Python 3.6+** installed.
 
-Install the required dependencies using:
+Install pillow using:
 ```bash
 pip install pillow
 ```
 
----
-
-## 📥 Installation
 Clone the repository using:
 ```bash
 git clone https://github.com/Alexcs-hi/Image-To-ASCII.git
-cd Image-To-ASCII
+cd Image-To-ASCII-CONVERTOR
 ```
 
----
-
-## 📌 Usage
+## 📌 Finally
 Run the script by executing:
 ```bash
-python image_to_ascii.py
+python ascii_generator.py
 ```
-Then follow the on-screen instructions:
-1. **Enter Brightness & Contrast values** (or press Enter for default settings).
-2. **Choose whether to invert the image** (press 'y' for yes, any other key to continue normally).
-3. **Select an image** (a file dialog will open).
-4. **View the ASCII output in the terminal**!
-
 ---
 
 ## 🌟 Example
 ### 🔹 **Before → After** 🔹
 
-| Original Image | ASCII Art Output |
+| Original Image | ASCII Art Output 
+                 (Brigthness 100% , Contrast 100% inverted) |
 |---------------|----------------|
-| ![Original](images/before.jpg) | ![ASCII](images/after.png) |
+| ![Original](images/pika_before.jpg) | ![ASCII](images/pika_after.png) |
 
----
 
-## 📜 License (**MIT License**)
-Feel free to use, modify, and distribute!
+| Original Image | ASCII Art Output 
+                 (Brigthness 100% , Contrast **200%** inverted) |
+|---------------|----------------|
+| ![Original](images/pika_before.jpg) | ![ASCII](images/pika_after_contrast2.png) |
 
+
+
+| Original Image | ASCII Art Output 
+                 (Brigthness 100% , Contrast 100% inverted) |
+|---------------|----------------|
+| ![Original](images/coffee_before.jpg) | ![ASCII](images/coffee_after.png) |
+
+The coffee one is a bit distorted , but you can change the resizing of the image 
+insisde the script get_image() function
 ---
 
 ## 📧 Contact
-For questions or suggestions, reach out at **alexcs.hello@gmail.com** or via Discord: **@Alexcs-hi**.
+For questions or suggestions, reach out at **alexcs.hello@gmail.com** or via Discord: **alexcs_ye**.
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to open an issue or a pull request if you have improvements or bug fixes.
+
+## 📜 License
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute!
 
 ---
 ## 👋 Cya ! 
